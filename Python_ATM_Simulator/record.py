@@ -1,13 +1,3 @@
-# import main
-# import function
-
-# Balance = [0,]
-
-# Desposite = [0,]
-
-# Withdraw = [0,]
-
-
 import json
 
 def load_record():
