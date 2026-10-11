@@ -1,5 +1,4 @@
 import function
-# import record
 import json
 
 pin = 1234
@@ -13,7 +12,9 @@ for i in range(0,3):
         no = 0
         while(no!= 1 and no!=2 and no!=3 and no!=4):
             print("\nWhat you want to do : \n1. Balance_check      2. Deposite_Money \n3. Withdraw_money     4. Exit ")
+            
             check = int(input("Enter the no. from 1, 2, 3, 4 :-  "))
+            
             if(check != 1 and check!= 2 and check!=3 and check!=4):
                 print("Choose valid no.")
 
