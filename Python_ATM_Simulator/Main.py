@@ -12,7 +12,7 @@ for i in range(0,3):
         while(no!= 1 and no!=2 and no!=3 and no!=4):
             print("\nWhat you want to do : \n1. Balance_check      2. Deposite_Money \n3. Withdraw_money     4. Exit ")
             
-            check = int(input("Enter the no. from 1, 2, 3, 4 :-  "))
+            check = int(input("Enter a no. from (1, 2, 3, 4) :-  "))
             
             if(check != 1 and check!= 2 and check!=3 and check!=4):
                 print("Choose valid no.")
@@ -38,7 +38,7 @@ for i in range(0,3):
 
     else:
         print("Incorrect PIN")
-        print(f"{2-i} attempt left\n")
+        print(f"{2-i} Attempt left\n")
         if i == 2:
             print("login failed!")
         
