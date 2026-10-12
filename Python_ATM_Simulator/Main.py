@@ -1,10 +1,9 @@
 import function
-import json
 
 pin = 1234
 
 for i in range(0,3):
-    cpin = int(input("Enter your PIN : "))
+    cpin = int(input("Enter your 4 Digit PIN : "))
     if cpin == pin:
         print("Login Successfully!")
 
@@ -20,7 +19,7 @@ for i in range(0,3):
 
             elif(check == 1):
                 # function.getbalance()
-                print("Current balance:", function.getbalance())
+                print(f"Current balance: {function.getbalance()} Rs")
                 
 
             elif(check == 2):
