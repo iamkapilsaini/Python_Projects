@@ -2,6 +2,9 @@
 
 A command-line ATM simulation built with Python. This project demonstrates fundamental Python programming concepts, including functions, loops, conditional statements, modules, and file handling for persistent balance storage.
 
+https://github.com/user-attachments/assets/7a0e3d8b-3662-4526-9797-57958b2622b4
+
+
 ## ✨ Features
 
 - **PIN Authentication:** Login with a PIN and a maximum of 3 attempts.
