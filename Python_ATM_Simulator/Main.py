@@ -2,7 +2,7 @@ import function
 
 pin = 1234
 
-for i in range(0,3):
+for i in range(3):
     cpin = int(input("Enter your 4 Digit PIN : "))
     if cpin == pin:
         print("Login Successfully!")
