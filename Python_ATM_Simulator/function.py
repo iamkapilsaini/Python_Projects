@@ -20,7 +20,7 @@ def deposite():
     save_record(data)
 
     print("Deposit successful!")
-    print("Current balance:", data["balance"])
+    print(f"Current balance: {data["balance"]} Rs")
 
 
 def withdraw():
@@ -42,4 +42,4 @@ def withdraw():
     save_record(data)
 
     print("Withdrawal successful!")
-    print("Current balance:", data["balance"])
+    print(f"Current balance: {data["balance"]} Rs")
